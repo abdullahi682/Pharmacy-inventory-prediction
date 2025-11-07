@@ -1,0 +1,57 @@
+test*
+/env/
+test
+/__pycache__/
+__pycache__
+/pages/
+pages
+.idea/
+/.idea/
+.idea
+.command/
+.command
+venv/
+venv
+
+
+# Ignore compiled Python files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore virtual environments
+venv/
+env/
+*.venv
+
+# Ignore system files
+.DS_Store
+.idea/
+*.command
+
+# Ignore dataset files (optional: remove if you want to include them)
+datasets/*.csv
+datasets/*.xlsx
+
+# Ignore trained model files (optional: remove if you want to include them)
+models/*.joblib
+models/*.pkl
+
+# Ignore Streamlit cache & pages (if applicable)
+.streamlit/
+pages/
+
+# Ignore logs and temporary files
+*.log
+*.out
+*.tmp
+
+
+
+# Ignore all model files anywhere
+*.joblib
+*.pkl
+
+# Ignore Jupyter checkpoint files
+*/.ipynb_checkpoints/
