@@ -1,13 +1,14 @@
-dill==0.3.9
-matplotlib==3.9.2
-numpy==2.0.0
+# Compatible scientific stack for Streamlit app on Render
+numpy==1.26.4
 pandas==2.2.3
-pillow==11.0.0
+matplotlib==3.9.0
+seaborn==0.13.2
 plotly==5.24.1
 scikit-learn==1.5.2
-seaborn==0.13.2
+statsmodels==0.14.2
 shap==0.46.0
 streamlit==1.40.1
-toml==0.10.2
 altair==5.4.1
-statsmodels==0.14.2
+pillow==10.3.0
+dill==0.3.9
+toml==0.10.2
